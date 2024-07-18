@@ -1,0 +1,7 @@
+.invert {
+    filter: invert(1); 
+    /* to note */
+}
+.flex{
+    display: flex;
+}
