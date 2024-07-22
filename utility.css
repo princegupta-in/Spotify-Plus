@@ -5,3 +5,25 @@
 .flex{
     display: flex;
 }
+
+.flex-default{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the scrollbar thumb (the draggable part) */
+    border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Color of the scrollbar thumb on hover */
+}
