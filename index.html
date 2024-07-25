@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify - Web Player: Music for everyone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
 </head>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="songList">
                     <ul>
-                        <li><div class="miniBar ">
+                        <!-- <li><div class="miniBar ">
                             <div class="music-logo"><img class="invert" src="music.svg" alt=""></div>
                             <div class="info">
                                 <div class="song-Name">song name</div>
@@ -47,7 +47,7 @@
                                 <span>play now</span>
                                 <img class="invert" src="play.svg" alt="">
                             </div>
-                        </div></li>
+                        </div></li> -->
                     </ul>
                 </div>
             </div>
@@ -137,13 +137,16 @@
 
                 </div>
                 <div class="playBar">
-                    <div class="songInfo"></div>
-                    <div class="songButton flex-default">
-                        <img src="previous.svg" alt="">
-                        <img src="play.svg" alt="">
-                        <img src="next.svg" alt="">
+                    <div class="seekBar">
+                        <div class="circle"></div>
                     </div>
-                    <div class="songTime"></div>
+                    <div class="songInfo">song name and artist</div>
+                    <div class="songButton flex-default">
+                        <img id="previous-me" src="previous.svg" alt="">
+                        <img id="play_me" src="play.svg" alt="">
+                        <img id="next-me" src="next.svg" alt="">
+                    </div>
+                    <div class="songTime">00:00/00:00</div>
                 </div>
             </div>
         </div>
