@@ -1,2 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.945,12.832l12,8A1,1,0,0,0,20.5,20V4a1,1,0,0,0-1.555-.832l-12,8a1,1,0,0,0,0,1.664ZM18.5,5.869V18.131L9.3,12ZM3.5,18V6a1,1,0,0,1,2,0V18a1,1,0,0,1-2,0Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="fff" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-skip-back">
+    <polygon points="19 20 9 12 19 4 19 20"></polygon>
+    <line x1="5" y1="19" x2="5" y2="5"></line>
+</svg>
